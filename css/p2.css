@@ -131,7 +131,6 @@ h4{
 .mainbox { 
     max-width: 1340px;
     margin: 0 auto;
-
 }
 .article--list { 
     display: flex;
@@ -253,8 +252,6 @@ footer {
     align-items: center;
     padding: 8px 20px;
     text-align: center;
-    width: 328px;
-    margin-left: 484px;
 }
 .article--pagination--pages{
     width: 40px;
@@ -266,4 +263,32 @@ footer {
 }
 .article--pagination--pages:hover{
     color: #6e6e6e;
+}
+
+@media screen and (max-width: 727px) {
+    .images {
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+    .images2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box01,.box02,.box04{
+        width: 100%;
+        
+    }
+
+    .contact{
+        line-height: 5em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .article,.article--list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
